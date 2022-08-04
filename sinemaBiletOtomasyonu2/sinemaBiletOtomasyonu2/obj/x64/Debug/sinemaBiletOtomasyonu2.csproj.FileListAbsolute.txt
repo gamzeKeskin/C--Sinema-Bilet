@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\bin\x64\Debug\sinemaBiletDataBase.mdb
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\bin\x64\Debug\sinemaBiletOtomasyonu2.exe.config
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\bin\x64\Debug\sinemaBiletOtomasyonu2.exe
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\bin\x64\Debug\sinemaBiletOtomasyonu2.pdb
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.FrmKullaniciGiris.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.FrmFilmEkle.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.FrmSalonEkle.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.FrmSeansEkle.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.Properties.Resources.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.UyeGirisEkrani.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.YoneticiGirisEkrani.resources
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.exe
+C:\Users\Administrator\source\repos\sinemaBiletOtomasyonu2\sinemaBiletOtomasyonu2\obj\x64\Debug\sinemaBiletOtomasyonu2.pdb

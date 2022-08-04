@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{468BDD98-3B52-42FD-A9C6-74E37CD24731}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>sinemaBiletOtomasyonu2</RootNamespace>
+    <AssemblyName>sinemaBiletOtomasyonu2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmFilmEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFilmEkle.Designer.cs">
+      <DependentUpon>FrmFilmEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKayit.Designer.cs">
+      <DependentUpon>FrmKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalonEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalonEkle.Designer.cs">
+      <DependentUpon>FrmSalonEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSeansEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSeansEkle.Designer.cs">
+      <DependentUpon>FrmSeansEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisEkrani.Designer.cs">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sinema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UyeGirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeGirisEkrani.Designer.cs">
+      <DependentUpon>UyeGirisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiGirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoneticiGirisEkrani.Designer.cs">
+      <DependentUpon>YoneticiGirisEkrani.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmFilmEkle.resx">
+      <DependentUpon>FrmFilmEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKayit.resx">
+      <DependentUpon>FrmKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalonEkle.resx">
+      <DependentUpon>FrmSalonEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSeansEkle.resx">
+      <DependentUpon>FrmSeansEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisEkrani.resx">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UyeGirisEkrani.resx">
+      <DependentUpon>UyeGirisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiGirisEkrani.resx">
+      <DependentUpon>YoneticiGirisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sinema.xsc">
+      <DependentUpon>sinema.xsd</DependentUpon>
+    </None>
+    <None Include="sinema.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinema.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="sinema.xss">
+      <DependentUpon>sinema.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Islam-ve-Sinema---Nicin-Sinema_1453192173.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-glasses %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clapperboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clapperboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-carpet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+    <None Include="Resources\clipboardlist.png" />
+    <None Include="Resources\armchair.png" />
+    <None Include="Resources\armchair1.png" />
+    <None Include="Resources\laptop.png" />
+    <None Include="Resources\estate-agent.png" />
+    <None Include="Resources\cinema8.png" />
+    <None Include="Resources\theater.png" />
+    <None Include="Resources\video-camera.png" />
+    <None Include="Resources\clockk.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\images %285%291.jpg" />
+    <Content Include="sinemaBiletDataBase.mdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
